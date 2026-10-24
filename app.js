@@ -134,7 +134,7 @@ function homeView() {
       <button class="btn primary grow" data-action="camera">${I.camera} Take photo</button>
       <button class="btn grow" data-action="upload">${I.image} Upload</button>
     </div>
-    <button class="doc-link" data-action="doc">${I.doc} Highlighted a Word or Google Doc? Upload it</button>
+    <button class="btn block doc-btn" data-action="doc">${I.doc} Upload a Word / Google Doc</button>
   </section>
 
   <h2 class="section-title">Your decks</h2>
@@ -157,7 +157,7 @@ function homeView() {
       <li>Open your teacher's notes in Google Docs or Word.</li>
       <li>Highlight the key bits with the highlighter tool (not coloured text).</li>
       <li>In Google Docs: File → Download → Microsoft Word (.docx).</li>
-      <li>Tap "Upload it" above and pick that file.</li>
+      <li>Tap "Upload a Word / Google Doc" above and pick that file.</li>
       <li>Got a PDF? Open it in Google Docs or Word first, or screenshot the pages and upload those.</li>
       <li>Tables work too: highlight the answer in a row, and the first column becomes the question.</li>
     </ul>
@@ -189,7 +189,7 @@ function deckView() {
       <button class="btn grow" data-action="camera" data-deck="${d.id}">${I.camera} Add photo</button>
       <button class="btn grow" data-action="upload" data-deck="${d.id}">${I.image} Upload</button>
     </div>
-    <button class="doc-link" data-action="doc" data-deck="${d.id}">${I.doc} Add from a Word or Google Doc</button>
+    <button class="btn block" data-action="doc" data-deck="${d.id}">${I.doc} Add from a Word / Google Doc</button>
   </div>
 
   <div class="section-head">

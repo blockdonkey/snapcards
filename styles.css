@@ -107,13 +107,7 @@ h1, h2 { letter-spacing: -.02em; line-height: 1.2; }
 .hero-card h1 { font-size: 27px; margin-bottom: 8px; }
 .hero-card p { color: var(--muted); margin-bottom: 20px; }
 mark { background: linear-gradient(transparent 52%, var(--accent-mark) 52%); color: inherit; padding: 0 2px; }
-.doc-link {
-  display: flex; align-items: center; justify-content: center; gap: 8px; width: 100%;
-  margin-top: 12px; padding: 10px; border-radius: 12px; font-size: 14px; font-weight: 500; color: var(--muted);
-}
-.doc-link:hover { background: var(--surface-2); color: var(--text); }
-.doc-link svg { width: 18px; height: 18px; }
-.deck-actions .doc-link { margin-top: 0; }
+.doc-btn { margin-top: 10px; }
 .section-title { font-size: 18px; margin: 32px 0 12px; }
 .section-head { display: flex; justify-content: space-between; align-items: center; margin: 28px 0 12px; }
 .section-head h2 { font-size: 18px; }
